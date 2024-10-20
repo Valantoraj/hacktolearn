@@ -72,7 +72,7 @@ Add the files from this drive link "https://drive.google.com/drive/folders/1Zd_9
 Add the files from this drive link "https://drive.google.com/drive/folders/1-H2Tuq_WEnYWZvZnwmrNbzUN9IlPP9Mm?usp=sharing" to hacktolearn\CancerDiagnoser
 
 
-Requirements :
+## Requirements :
 absl-py==2.1.0
 asgiref==3.8.1
 astunparse==1.6.3
@@ -131,3 +131,14 @@ urllib3==2.2.2
 Werkzeug==3.0.4
 wheel==0.44.0
 wrapt==1.16.0
+
+## Abstract
+
+The MedTech Innovation Alliance aims to address diagnostic gaps in healthcare through an AI-driven platform. By leveraging machine learning and predictive tools, the project seeks to enhance diagnostic accuracy, improve patient care management, provide mental health support, and offer emergency health services. This project aligns with the UN Sustainable Development Goals (SDG 3: Good Health and Well-being and SDG 9: Industry Innovation and Infrastructure).
+
+
+## FLowchart:
+
+overview of the project: ![alt text](image.png)
+flow of the disease diagnoser:![alt text](image-1.png)
+flow of the mental health chatbot: ![alt text](image-2.png)
