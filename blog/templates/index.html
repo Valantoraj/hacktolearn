@@ -1,0 +1,137 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title> Finexo </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css'%}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="{% static 'css/font-awesome.min.css'%}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{%static 'css/styles.css'%}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{%static 'css/responsive.css'%}" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="{%static 'images/hero-bg.png'%}" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    {% include "header.html" %}
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Health<br>
+                      Care
+                    </h1>
+                    <p>
+                      Empowering individuals with personalized health insights, tools, and resources to make informed decisions, improve well-being, and lead healthier lives.
+                    </p>
+                    <div class="btn-box">
+                      <a href="#about" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="{%static 'images/index.png'%}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding" id="about">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          Empowering individuals with personalized health insights, tools, and resources to make informed decisions, improve well-being, and lead healthier lives.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{%static 'images/img2.jpeg'%}" style="margin-left:130px; heigth:400px; width:400px" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              Health Care
+            </h3>
+            <p>
+              Our platform offers comprehensive healthcare solutions to help you take control of your well-being. With advanced AI-driven tools, you can quickly access personalized disease diagnosis, mental health assessments, and cancer prediction insights, all in one place. Additionally, find nearby hospitals and medical facilities with ease, ensuring timely care when you need it the most. Our goal is to empower you with accurate, reliable information and resources to support your journey to better health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+  <!-- info section -->
+
+  {%include 'info_section.html'%}
+
+  <!-- end info section -->
+
+</body>
+
+</html>
